@@ -1,0 +1,135 @@
+/* Body */
+.flex-container {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+h2,
+h3,
+h4
+ {
+   margin: 0;
+   padding: 10px;
+}
+
+body {
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  font-family: Helvetica;
+  opacity:0.9;
+  text-align: center;
+}
+
+/* Header */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Main Content */
+
+.main {
+  width:1200px;
+  margin: 0 auto;
+}
+
+/* mission section */
+
+#mission {
+  background-image:url("../images/img-mission-background.jpg");
+  height:700px;
+  padding-top:70px;
+  margin-bottom:70px;
+}
+
+#mission .content {
+  background-color:black;
+  margin:auto;
+  width:100%;
+}
+
+/* tea section */
+
+#tea {
+  margin:0 auto;
+  width: 1000px;
+  display: inline-block;
+}
+
+#tea .items {
+  flex-direction:row;
+}
+
+#tea .item {
+  padding:5px;
+}
+
+.item img{
+  height: 200px;
+  display: block;
+  margin:10px;
+}
+
+/* locations */
+
+#locations {
+  height: 500px;
+  margin-top:70px;
+  padding-top: 70px;
+  background-image:url("../resources/images/img-locations-background.jpg");
+}
+
+.location {
+  margin: 5px 20px;
+  flex-basis: 280px;
+  padding: 10px;
+  opacity: 1;
+  background-color:black;
+  padding-top:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Footer */
+
+.info {
+  margin-top: 70px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
